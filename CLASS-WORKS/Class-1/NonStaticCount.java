@@ -1,5 +1,5 @@
 class Student {
-    static int count = 0;
+    int count = 0;
 
     Student() {
         count++;
@@ -10,6 +10,8 @@ class Student {
         Student s2 = new Student();
         Student s3 = new Student();
 
-        System.out.println("Number of students: " + count);
+        System.out.println("s1 count: " + s1.count);
+        System.out.println("s2 count: " + s2.count);
+        System.out.println("s3 count: " + s3.count);
     }
 }
