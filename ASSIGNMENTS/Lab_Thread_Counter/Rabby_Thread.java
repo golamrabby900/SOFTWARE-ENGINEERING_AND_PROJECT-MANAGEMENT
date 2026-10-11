@@ -36,7 +36,7 @@ public class Rabby_Thread implements Runnable {
 
         if (args.length != 3) {
             System.out.println(
-                    "Usage: java AfifZaman_Thread <threads> " +
+                    "Usage: java Rabby_Thread <threads> " +
                             "<increments> <true|false>");
             return;
         }
@@ -63,7 +63,7 @@ public class Rabby_Thread implements Runnable {
         unsafeCounter = 0;
 
         Rabby_Thread[] tasks =
-                new AfifZaman_Thread[numberOfThreads];
+                new Rabby_Thread[numberOfThreads];
         Thread[] threads = new Thread[numberOfThreads];
 
         long expectedCount =
@@ -71,7 +71,7 @@ public class Rabby_Thread implements Runnable {
 
         for (int i = 0; i < numberOfThreads; i++) {
             tasks[i] =
-                    new AfifZaman_Thread(increments, threadSafe);
+                    new Rabby_Thread(increments, threadSafe);
             threads[i] = new Thread(tasks[i]);
             threads[i].start();
         }
