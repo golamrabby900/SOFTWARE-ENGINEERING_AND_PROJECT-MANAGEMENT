@@ -1,4 +1,4 @@
-# Software Engineering Design – Mid-Term Question Paper
+# Software Engineering Design –  Question Paper
 
 ---
 
@@ -6,7 +6,7 @@
 
 | Field | Details |
 |---|---|
-| **Student Name** | Golam Rabbi |
+| **Student Name** | Golam Rabby|
 | **Student ID** | IT24025 |
 | **Department** | Department of Information and Communication Technology |
 | **Course** | Software Engineering Design |
@@ -220,15 +220,4 @@ This question paper is designed in compliance with:
 └── question_paper.html          ← Printable question paper
 ```
 
-### How to Use
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/golamrabby/SE-Design-MidTerm.git
-   ```
-2. Open `question_paper.html` in any browser.
-3. Use **Print → Save as PDF** for a printable copy.
-
----
-
-*Department of Information and Communication Technology | BNQF Level 6 | OBE-Based Assessment*
